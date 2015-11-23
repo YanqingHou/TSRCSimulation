@@ -1,0 +1,11 @@
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/user/repo.git/info/refs
+
+fatal: HTTP request failed
+I know solve this error this way
+
+git remote set-url origin https://username@github.com/user/repo.git
+In this way , I must enter password.
+
+$ git push origin master
+Password: 
+But I hate to enter password.
