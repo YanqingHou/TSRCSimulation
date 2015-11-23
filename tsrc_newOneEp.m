@@ -20,7 +20,7 @@ Qzhat      = (tril(Qzhat,0)+tril(Qzhat,-1)');
 Pfttls=[0.001,0.01]';
 Pfttlslen=length(Pfttls);
 
-Pf2s=[0.0001:0.0001:0.001,0.002:0.001:0.01,0.02:0.01:0.1]';
+Pf2s=[0.0001:0.0001:0.001,0.002:0.001:0.01,0.02:0.01:0.1,0.2:0.1:1]';
 Pf2slen=length(Pf2s);   
 
 Ps0=zeros(Pfttlslen,1);
